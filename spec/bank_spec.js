@@ -10,7 +10,7 @@ describe("Bank", function() {
     });
 
     it("sets the new account's balance to the amount specified", function(amount) {
-      var newAmount = Bank(200);
+      var newAmount = Bank(400);
       expect(newAmount).toBe(this.amount);
     });
 
@@ -19,7 +19,9 @@ describe("Bank", function() {
   describe("#deposit", function() {
 
     it("adds the appropriate amount to the named account", function() {
-
+      var newDeposit = Bank("Chase", 400);
+      var currentAmount = this.amount + newDeposit;
+      expect(this.amount).toBe(400);
     });
 
   });

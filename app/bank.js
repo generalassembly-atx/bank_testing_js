@@ -11,12 +11,12 @@ Bank.prototype.createAccount = function(accountName, amount) {
   return false;
 }
 
-// Bank.prototype.deposit = function(accountName, amount) {
-//   if (!this.accounts[accountName]) { return false; }
+Bank.prototype.deposit = function(accountName, amount) {
+  if (!this.accounts[accountName]) { return false; }
 
-//   this.accounts[acco    untName] += amount;
-//   return true;
-// }
+  this.accounts[accountName] += amount;
+  return true;
+}
 
 // Bank.prototype.withdraw = function(accountName, amount) {
 //   if (!this.accounts[accountName]) { return false; }
