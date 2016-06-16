@@ -1,0 +1,22 @@
+{
+  "name": "bank_testing_js",
+  "version": "1.0.0",
+  "description": "We've been tasked with testing a new bank's software to make sure that it works. The bank's software is pretty basic right now, but so far it can:",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/generalassembly-atx/bank_testing_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/generalassembly-atx/bank_testing_js/issues"
+  },
+  "homepage": "https://github.com/generalassembly-atx/bank_testing_js#readme",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
