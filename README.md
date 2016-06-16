@@ -12,6 +12,8 @@ We want to make sure each of these methods is working correctly, so we're going 
 
 You'll only need to work in the `spec/bank_spec.js` file for this project. Fill in the tests (the things inside the `it("does something", function() { ... })` blocks) with the jasmine expectations to test if the methods work. You may need to refer to the [jasmine matcher documentation](http://jasmine.github.io/2.4/introduction.html#section-Matchers) for a list of methods to compare results.
 
+To run the tests, run `npm test` in the Terminal from inside the directory with the `package.json` file in it.
+
 For some of the tests, you will need to do some "prep work" to set up the test. For example, to test if an account balance is correct, you first need to have created an account with money in it. Think about that as you're designing your tests.
 
 ## Bonus
