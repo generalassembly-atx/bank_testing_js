@@ -4,12 +4,14 @@ describe("Bank", function() {
 
   describe("#createAccount", function() {
 
-    it("adds an accounts to the bank's 'accounts' object", function() {
-
+    it("adds an account to the bank's 'accounts' object", function(accountName) {
+      var newAccount = Bank("Bob");
+      expect(newAccount).toBe(this.name);
     });
 
-    it("sets the new account's balance to the amount specified", function() {
-
+    it("sets the new account's balance to the amount specified", function(amount) {
+      var newAmount = Bank(200);
+      expect(newAmount).toBe(this.amount);
     });
 
   });
