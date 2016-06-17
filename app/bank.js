@@ -1,15 +1,16 @@
-// function Bank(name) {
-//   this.name = name;
-//   this.accounts = {}
-// }
+function Bank(name) {
+  this.name = name;
+  this.accounts = {}
+}
 
-// Bank.prototype.createAccount = function(accountName, amount) {
-//   if (!this.accounts[accountName]) {
-//     this.accounts[accountName] = amount;
-//     return true;
-//   }
-//   return false;
-// }
+Bank.prototype.createAccount = function(accountName,
+amount) {
+  if (!this.accounts[accountName]) {
+    this.accounts[accountName] = amount;
+    return true;
+  }
+  return false;
+}
 
 // Bank.prototype.deposit = function(accountName, amount) {
 //   if (!this.accounts[accountName]) { return false; }
