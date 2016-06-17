@@ -8,8 +8,8 @@ describe("Bank", function() {
       // var  = bank.adds(accounts);
       // expect( add ).toBe(true);
       var accountName = Bank("xixi");
-      accountName.createAccount("mino",100);
-      expect(accountName.accounts).toBe({"mino": 100})
+      // accountName.createAccount("mino");
+      expect(accountName).toBe(this.name);
 
     });
 
@@ -17,10 +17,10 @@ describe("Bank", function() {
         // var create = bank.createAccount(accountName)
         // var setamount = bank.createAccount(amount);
         // expect(create).toEqual(setamount);
-      var accountName = Bank("xixi");
-      accountName.createAccount("mino",100);
-      var money = accountName.accounts["mino"]
-      expect(money).toBe(100);
+      var accountName = Bank(100);
+      // accountName.createAccount("mino",100);
+      // var money = accountName.accounts["mino"]
+      expect(accountName).toBe(100);
     });
 
   });

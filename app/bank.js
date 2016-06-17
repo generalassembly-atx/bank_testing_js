@@ -35,4 +35,4 @@ amount) {
 //   return this.accounts[accountName];
 // }
 
-// module.exports = Bank;
+module.exports = Bank;
