@@ -19,3 +19,7 @@ For some of the tests, you will need to do some "prep work" to set up the test. 
 ## Bonus
 - Write a test for a new method called `#listAccounts` that returns an array of the names of all the accounts in the bank. Then write the method in `app/bank.js` that would implement this feature. Use the "red-green-refactor" pattern.
 - Write a test for a new method called `#computeInterest` that computes 3% interest for each account's value and adds that amount to each account. Then write the method in `bank.js` that would implement this feature. Use the "red-green-refactor" pattern.
+
+## Licensing
+All content is licensed under a CC­BY­NC­SA 4.0 license.
+All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
